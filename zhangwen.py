@@ -112,7 +112,7 @@ def sign_in_with_wallet(private_key):
 
 if __name__ == "__main__":
     # 使用你的私钥
-    private_key = "0x68b4dd2096eee90897f6873f5afaa905dd2491b8ccbdf22a2d3d1d07bc15c590"
+    private_key = ""
     
     # 先登录获取token
     login_result = sign_in_with_wallet(private_key)
